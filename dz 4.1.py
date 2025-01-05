@@ -4,5 +4,4 @@ number_zero = 0
 zero = my_list.count(number_zero)
 my_list = [i for i in my_list if i != number_zero]
 my_list.extend([number_zero] * zero)
-
 print(my_list)
